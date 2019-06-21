@@ -13,6 +13,8 @@ class Error(object):
         self.error = error
         self.traceback = traceback
         self.row = row
+        # Ignore me, I'm a test.
+        self.asdf = None
 
 
 class RowResult(object):
